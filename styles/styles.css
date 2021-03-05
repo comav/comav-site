@@ -9,6 +9,15 @@ body {
   overflow-x: hidden;
 }
 
+.top-wrapper {
+  margin-bottom: 200px;
+}
+
+.top-wrapper span {
+  -webkit-animation: up-down 1s linear infinite;
+          animation: up-down 1s linear infinite;
+}
+
 .triangle {
   top: 30px;
   width: 0;
@@ -61,5 +70,71 @@ body {
 
 .avatar h1 {
   color: white;
+}
+
+.projects-wrapper {
+  background: rgba(70, 70, 70, 0.808);
+  border-radius: 5px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  -webkit-font-feature-settings: 'liga';
+          font-feature-settings: 'liga';
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  50% {
+    padding-bottom: 0px;
+    padding-top: 10px;
+  }
+  100% {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+}
+
+@keyframes up-down {
+  0% {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  50% {
+    padding-bottom: 0px;
+    padding-top: 10px;
+  }
+  100% {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
