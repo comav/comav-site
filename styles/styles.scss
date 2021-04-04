@@ -65,12 +65,50 @@ body {
     }
 }
 
-.projects-wrapper {
+.projects {
     background: rgba(70, 70, 70, 0.808);
     border-radius: 5px;
     height: 500px;
     display: flex;
-    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+
+    h1 {
+        align-self: center;
+    }
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 80%;
+        align-self: center;
+    }
+
+    .project {
+        width: 49%;
+        height: 100;
+        display: flex;
+        background-color: rgba(88, 88, 88, 0.808);
+        margin: 10 10 10 10;
+        border-radius: 10px;
+
+    }
+
+    &-1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &-3 {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 .material-icons {
