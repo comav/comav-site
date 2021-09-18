@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+    overflow-x: hidden;
+}
+
+.top-wrapper {
+    margin-bottom: 200px;
+    span {
+        animation: up-down 1s linear infinite;
+    }
+}
+
+.triangle {
+    top: 30px;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-left-width: 0px;
+    border-right-width: 2000px;
+    border-top: 544px solid rgba(24, 24, 24, 0.863);
+    position: absolute;
+    z-index: 2;
+}
+
+.triangle-left {
+    position: absolute;
+    top: 100px;
+    left: 55%;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-top-width: 0px;
+    border-bottom-width: 400px;
+    border-right: 544px solid rgba(0, 0, 0, 0.822);
+    z-index: 3;
+    // animation: shine 1s linear infinite;
+    // animation-play-state: paused;
+    // animation-delay: calc(var(--scroll) * -1s);
+}
+
+.avatar {
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+    flex-direction: column;
+
+    &-img {
+        border-radius: 100%;
+        width: 200px;
+        z-index: 99;
+        height: 200px;
+    }
+
+    h1 {
+        color: white;
+    }
+}
+
+.projects {
+    background: rgba(70, 70, 70, 0.808);
+    border-radius: 5px;
+    height: 500px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+
+    h1 {
+        align-self: center;
+    }
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 80%;
+        align-self: center;
+    }
+
+    .project {
+        width: 49%;
+        height: 100;
+        display: flex;
+        background-color: rgba(88, 88, 88, 0.808);
+        margin: 10 10 10 10;
+        border-radius: 10px;
+
+    }
+
+    &-1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &-3 {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+  
+
+//keyframes way downs
+
+// @keyframes transform-menu{
+//     100% {
+
+//     }
+//   }
+
+@keyframes up-down {
+    0% {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    50% {
+        padding-bottom: 0px;
+        padding-top: 10px;
+    }
+    100% {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+}
