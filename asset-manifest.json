@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/comav-site/static/css/main.5ba84bcf.chunk.css",
+    "main.js": "/comav-site/static/js/main.54f19875.chunk.js",
+    "main.js.map": "/comav-site/static/js/main.54f19875.chunk.js.map",
+    "runtime-main.js": "/comav-site/static/js/runtime-main.a3319e2c.js",
+    "runtime-main.js.map": "/comav-site/static/js/runtime-main.a3319e2c.js.map",
+    "static/js/2.1f290eef.chunk.js": "/comav-site/static/js/2.1f290eef.chunk.js",
+    "static/js/2.1f290eef.chunk.js.map": "/comav-site/static/js/2.1f290eef.chunk.js.map",
+    "static/js/3.0730d43e.chunk.js": "/comav-site/static/js/3.0730d43e.chunk.js",
+    "static/js/3.0730d43e.chunk.js.map": "/comav-site/static/js/3.0730d43e.chunk.js.map",
+    "index.html": "/comav-site/index.html",
+    "static/css/main.5ba84bcf.chunk.css.map": "/comav-site/static/css/main.5ba84bcf.chunk.css.map",
+    "static/js/2.1f290eef.chunk.js.LICENSE.txt": "/comav-site/static/js/2.1f290eef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3319e2c.js",
+    "static/js/2.1f290eef.chunk.js",
+    "static/css/main.5ba84bcf.chunk.css",
+    "static/js/main.54f19875.chunk.js"
+  ]
+}
