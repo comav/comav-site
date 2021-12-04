@@ -1,0 +1,90 @@
+.wrapper {
+  width: 98%;
+  height: 200px;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.contact-item {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: calc(100% - 20px);
+  background-color: #1f1f1f;
+  flex-grow: 1;
+  border-radius: 10px;
+  transition: ease-in-out 0.3s all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twitter {
+  color: #1DA1F2;
+}
+
+.telegram {
+  color: #0088cc;
+}
+
+.youtube {
+  color: #ff0000;
+}
+
+.spotify {
+  color: #1DB954;
+}
+
+.discord {
+  color: #5865F2;
+}
+
+.matrix {
+  color: white;
+  background: #1f1f1f;
+}
+
+.twitter:hover {
+  background-color: #1DA1F2;
+  color: white;
+}
+
+.telegram:hover {
+  background-color: #0088cc;
+  color: white;
+}
+
+.youtube:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+.spotify:hover {
+  color: white;
+  background-color: #1DB954;
+}
+
+.discord:hover {
+  color: white;
+  background-color: #5865F2;
+}
+
+.matrix:hover {
+  background: url('../../matrix-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.icons {
+  font-size: 5em;
+}
