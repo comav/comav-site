@@ -1,6 +1,17 @@
-@import url("http://fonts.cdnfonts.com/css/product-sans");
+@import url('https://fonts.googleapis.com/css2?family=Martel&family=Questrial&family=Righteous&display=swap');
 
 h1, h2, h3, h4, h5, h6, p, li {
   color: white;
-  font-family: 'Product Sans', sans-serif;
+}
+
+.header {
+  font-family: 'Righteous', cursive;
+}
+
+.highlighted {
+  font-family: 'Martel', serif;
+}
+
+.text {
+  font-family: 'Questrial', sans-serif;
 }
