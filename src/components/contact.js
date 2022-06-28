@@ -16,7 +16,7 @@ export default function ContactMe() {
             </IconContext.Provider>
           </div>
         </a>
-        <a href={'t.me/pfxel'} className={'contact-item'}>
+        <a href={'https://t.me/pfxel'} className={'contact-item'}>
           <div className={'contact-item telegram'}>
             <IconContext.Provider value={{ className: "icons" }}>
               <RiTelegramFill />
