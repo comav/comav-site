@@ -1,7 +1,7 @@
 .menu-wrapper {
   height: 50px;
   background-color: rgba(0, 0, 0, 0);
-  position: sticky;
+  position: fixed;
   z-index: 99;
 }
 

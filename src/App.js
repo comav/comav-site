@@ -1,4 +1,5 @@
 import FirstScreen from './screens/firstScreen';
+import ProjectsScreen from './screens/projectsScreen';
 
 import Menu from './components/menu';
 
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Menu />
       <FirstScreen />
+      <ProjectsScreen />
     </div>
   );
 }
