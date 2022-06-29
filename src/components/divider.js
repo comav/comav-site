@@ -1,8 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 
 export default function Divider(props) {
-  const [color, setColor] = useState('white');
-  return (
-    <div style={{backgroundColor: color, width: '100%', height: 2}} />
-  )
+
+  if (props.vertical) {
+    return (
+      <div style={{backgroundColor: 'white', width: 2, height: '84vh', marginTop: '8vh'}} />
+    )
+  } else {
+    return (
+      <div style={{backgroundColor: 'white', width: '100%', height: 2}} />
+    )
+  }
 }
