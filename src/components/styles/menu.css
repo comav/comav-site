@@ -1,14 +1,17 @@
 .menu-wrapper {
+  width: 100vw;
   height: 50px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.329);
   position: fixed;
   z-index: 99;
+  transition: all 0.1s ease-in-out;
 }
 
 .menu-items {
   display: flex;
   align-items: stretch;
   height: 100%;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0);
 }
 
